@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Shakya - Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="cube">
+                <div class="face front">P</div>
+                <div class="face back">S</div>
+                <div class="face right">P</div>
+                <div class="face left">S</div>
+                <div class="face top">P</div>
+                <div class="face bottom">S</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand logo-3d" href="#home">
+                <span class="logo-text">Prashant Shakya</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-3d" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-3d" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-3d" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-3d" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-3d" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            <span class="greeting">Hello, I'm</span>
+                            <span class="name-3d">Prashant Shakya</span>
+                        </h1>
+                        <div class="typing-container">
+                            <span class="typing-text"></span>
+                            <span class="cursor">|</span>
+                        </div>
+                        <p class="hero-description">
+                            Passionate Full Stack Developer with 1.5 years of experience creating innovative web solutions
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-3d btn-primary">View My Work</a>
+                            <a href="#contact" class="btn btn-3d btn-outline">Get In Touch</a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/Shakya3211" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/prashant-shakya-1994a719b/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <!-- <a href="#" class="social-link"><i class="fab fa-twitter"></i></a> -->
+                            <a href="https://www.instagram.com/prem_shakya001?igsh=djMzN2RvazU2eXVo" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-image">
+                        <div class="profile-card-3d">
+                            <div class="profile-image">
+                                <img src="profile.jpeg" alt="Prashant Shakya">
+                            </div>
+                            <div class="profile-glow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-content">
+                        <h3 class="about-subtitle">Full Stack Developer & Creative Thinker</h3>
+                        <p class="about-text">
+                            I'm a passionate Full Stack Developer with 1.5 years of professional experience in creating 
+                            dynamic and responsive web applications. I specialize in modern web technologies and love 
+                            turning complex problems into simple, beautiful solutions.
+                        </p>
+                        <p class="about-text">
+                            My journey in web development started with curiosity and has evolved into a passion for 
+                            creating user-centric applications that make a difference. I'm always eager to learn new 
+                            technologies and take on challenging projects.
+                        </p>
+                        <div class="skills-grid">
+                            <div class="skill-item" data-aos="zoom-in" data-aos-delay="100">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item" data-aos="zoom-in" data-aos-delay="200">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item" data-aos="zoom-in" data-aos-delay="300">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-item" data-aos="zoom-in" data-aos-delay="600">
+                                <i class="fas fa-database"></i>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="stats-container">
+                        <div class="stat-card" data-aos="flip-left" data-aos-delay="100">
+                            <div class="stat-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="stat-number" data-count="50">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card" data-aos="flip-left" data-aos-delay="200">
+                            <div class="stat-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="stat-number" data-count="1.5">0</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-card" data-aos="flip-left" data-aos-delay="300">
+                            <div class="stat-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="stat-number" data-count="25">0</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-card" data-aos="flip-left" data-aos-delay="400">
+                            <div class="stat-icon">
+                                <i class="fas fa-coffee"></i>
+                            </div>
+                            <div class="stat-number" data-count="500">0</div>
+                            <div class="stat-label">Cups of Coffee</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                        Here are some of my recent works that showcase my skills and creativity
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250/6366f1/ffffff?text=E-Commerce+App" alt="E-Commerce App">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4 class="project-title">E-Commerce Platform</h4>
+                            <p class="project-description">
+                                Full-stack e-commerce application with React, Node.js, and MongoDB
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250/8b5cf6/ffffff?text=Task+Manager" alt="Task Manager">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4 class="project-title">Task Management System</h4>
+                            <p class="project-description">
+                                Collaborative task management tool with real-time updates
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">Socket.io</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250/06b6d4/ffffff?text=Weather+App" alt="Weather App">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4 class="project-title">Weather Dashboard</h4>
+                            <p class="project-description">
+                                Beautiful weather application with location-based forecasts
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">API</span>
+                                <span class="tech-tag">CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250/10b981/ffffff?text=Blog+Platform" alt="Blog Platform">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4 class="project-title">Blog Platform</h4>
+                            <p class="project-description">
+                                Modern blogging platform with rich text editor and user management
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Material-UI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250/f59e0b/ffffff?text=Portfolio+Site" alt="Portfolio Site">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4 class="project-title">3D Portfolio Website</h4>
+                            <p class="project-description">
+                                Interactive 3D portfolio with animations and modern design
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Three.js</span>
+                                <span class="tech-tag">GSAP</span>
+                                <span class="tech-tag">WebGL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250/ef4444/ffffff?text=Chat+App" alt="Chat App">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4 class="project-title">Real-time Chat App</h4>
+                            <p class="project-description">
+                                Real-time messaging application with group chat functionality
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Socket.io</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">Experience</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                        My professional journey and work experience
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="timeline">
+                        <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4 class="timeline-title">Full Stack Developer</h4>
+                                    <span class="timeline-company">TechCorp Solutions</span>
+                                    <span class="timeline-date">2022 - Present</span>
+                                </div>
+                                <div class="timeline-description">
+                                    <p>
+                                        Developed and maintained multiple web applications using React, Node.js, and MongoDB. 
+                                        Collaborated with cross-functional teams to deliver high-quality software solutions.
+                                    </p>
+                                    <ul class="timeline-achievements">
+                                        <li>Built 15+ responsive web applications</li>
+                                        <li>Improved application performance by 40%</li>
+                                        <li>Mentored 3 junior developers</li>
+                                        <li>Implemented CI/CD pipelines</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4 class="timeline-title">Frontend Developer</h4>
+                                    <span class="timeline-company">WebDesign Pro</span>
+                                    <span class="timeline-date">2021 - 2022</span>
+                                </div>
+                                <div class="timeline-description">
+                                    <p>
+                                        Focused on creating beautiful and functional user interfaces using modern frontend 
+                                        technologies. Worked closely with designers to implement pixel-perfect designs.
+                                    </p>
+                                    <ul class="timeline-achievements">
+                                        <li>Created 20+ landing pages</li>
+                                        <li>Optimized website loading speed by 60%</li>
+                                        <li>Implemented responsive design principles</li>
+                                        <li>Collaborated with UX/UI team</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4 class="timeline-title">Web Development Intern</h4>
+                                    <span class="timeline-company">StartupHub</span>
+                                    <span class="timeline-date">2021 - 2021</span>
+                                </div>
+                                <div class="timeline-description">
+                                    <p>
+                                        Started my professional journey as an intern, learning industry best practices 
+                                        and working on real-world projects under senior developer guidance.
+                                    </p>
+                                    <ul class="timeline-achievements">
+                                        <li>Learned modern web development stack</li>
+                                        <li>Contributed to 5 client projects</li>
+                                        <li>Gained experience in agile methodology</li>
+                                        <li>Built strong foundation in programming</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                        Let's work together on your next project
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form-container" data-aos="fade-up" data-aos-delay="200">
+                        <form class="contact-form" id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group-3d">
+                                        <input type="text" class="form-control-3d" id="name" required>
+                                        <label for="name" class="form-label-3d">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group-3d">
+                                        <input type="email" class="form-control-3d" id="email" required>
+                                        <label for="email" class="form-label-3d">Your Email</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <div class="form-group-3d">
+                                        <input type="text" class="form-control-3d" id="subject" required>
+                                        <label for="subject" class="form-label-3d">Subject</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <div class="form-group-3d">
+                                        <textarea class="form-control-3d" id="message" rows="6" required></textarea>
+                                        <label for="message" class="form-label-3d">Your Message</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-3d btn-primary btn-lg">
+                                    <span>Send Message</span>
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>-->
+            <div class="row mt-5"> 
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h5>Location</h5>
+                        <p>Stone Park Motijheel , Gwalior (Madhya Pradesh)</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h5>Email</h5>
+                        <p>shakyap@email.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h5>Phone</h5>
+                        <p>+91 9589180869</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="footer-text mb-0">
+                        © 2023 Prashant Shakya. All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="footer-social">
+                        <a href="https://github.com/Shakya3211" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/prashant-shakya-1994a719b/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <!-- <a href="#" class="social-link"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://www.instagram.com/prem_shakya001?igsh=djMzN2RvazU2eXVo" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
